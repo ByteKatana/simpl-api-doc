@@ -1,4 +1,4 @@
-baseURL = ''
+baseURL = 'https://bytekatana.github.io/simpl-api-doc'
 languageCode = 'en-us'
 title = 'simpl:api Doc'
 theme = "hugo-geekdoc"
