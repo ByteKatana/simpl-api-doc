@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: /tags/*
 
-Sitemap: sitemap.xml
+Sitemap: https://bytekatana.github.io/simpl-api-doc/sitemap.xml
