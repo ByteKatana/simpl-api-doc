@@ -6,7 +6,7 @@ weight: 22
 ---
 Before using simpl:api, there are a few steps to follow to make everything ready.
 
-1. clone the repo
+1. clone the repo (`git clone https://github.com/ByteKatana/simpl-api.git`) and run `npm install`
 2. In `.env` file (change name of .env-example to .env), set  `BASE_URL`, `MONGODB_CONNECTION_STRING` and `DB_NAME`
 3. In `.env` file, set a UID to `SECRET_KEY`and `NEXTAUTH_SECRET`
 4. In `next.config.js` file (change name of next-example.config.js to next.config.js), set `baseUrl` and `secretKey` according to `.env` file.
