@@ -11,7 +11,7 @@ Before using simpl:api, there are a few steps to follow to make everything ready
 3. In `.env` file, set a UID to `SECRET_KEY`and `NEXTAUTH_SECRET`
 4. In `next.config.js` file (change name of next-example.config.js to next.config.js), set `baseUrl` and `secretKey` according to `.env` file.
 5. Start simpl:api with `npm run dev` command.
-6. In your browser, enter `/api/v1/install/first-run`. This will create required db collections and admin account and will return credentials to your browser as response. Delete this folder after all steps are done.
+6. In your browser, enter `/api/v1/install/first-run?secretkey=YOURSECRETKEY`. This will create required db collections and admin account and will return credentials to your browser as response. Delete this folder after all steps are done.
 7. In your browser, enter `api/v1/key/generate`. This page is protected with authentication, so you have to use your admin credentials which were created previous step.
 8. Copy generated API key from your browser and paste it to api key variable in both `.env ` and `next.config.js` file
 9. Restart the server (Ctrl+C then run the command from step 5)
